@@ -7,39 +7,70 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a MUUY FUERTES</h1>
-        <p>Rompe tus límites. Sé más fuerte.</p>
+    <!-- Header con imagen hero -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <h1>MUUY FUERTES</h1>
+            <p>Rompe tus límites. Sé más fuerte.</p>
+            <a href="#about" class="btn">Conócenos</a>
+        </div>
     </header>
-    <nav>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar">
         <ul>
-            <li><a href="#about">Sobre Nosotros</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#shop">Tienda</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="shop.html">Tienda</a></li>
+            <li><a href="contact.html">Contacto</a></li>
         </ul>
     </nav>
+
+    <!-- Sección de bienvenida -->
     <main>
         <section id="about">
-            <h2>Sobre Nosotros</h2>
-            <p>En MUUY FUERTES combinamos armwrestling, calistenia y pesas para revolucionar tu entrenamiento.</p>
+            <h2>Bienvenido a MUUY FUERTES</h2>
+            <p>
+                Somos la comunidad que combina <strong>armwrestling</strong>, <strong>calistenia</strong> y <strong>pesas</strong> para revolucionar tu entrenamiento. Aquí encontrarás recursos, consejos y productos para maximizar tu fuerza mientras formas parte de una comunidad apasionada.
+            </p>
         </section>
-        <section id="blog">
-            <h2>Blog</h2>
-            <p>Explora artículos y consejos para maximizar tu rendimiento.</p>
+
+        <!-- Sección de servicios destacados -->
+        <section id="services">
+            <h2>Nuestros Servicios</h2>
+            <div class="service">
+                <img src="images/armwrestling.jpg" alt="Entrenamiento de armwrestling">
+                <h3>Entrenamiento de Armwrestling</h3>
+                <p>Mejora tus técnicas con ejercicios y estrategias avanzadas.</p>
+            </div>
+            <div class="service">
+                <img src="images/calistenia.jpg" alt="Entrenamiento de calistenia">
+                <h3>Rutinas de Calistenia</h3>
+                <p>Descubre movimientos dinámicos que combinan fuerza y control.</p>
+            </div>
+            <div class="service">
+                <img src="images/pesas.jpg" alt="Entrenamiento con pesas">
+                <h3>Entrenamiento con Pesas</h3>
+                <p>Construye fuerza máxima con nuestras rutinas personalizadas.</p>
+            </div>
         </section>
-        <section id="shop">
-            <h2>Tienda</h2>
-            <p>Descubre nuestra línea de ropa y equipamiento especializado.</p>
-        </section>
-        <section id="contact">
-            <h2>Contacto</h2>
-            <p>Escríbenos para más información: <a href="mailto:contacto@muuyfuertes.com">contacto@muuyfuertes.com</a></p>
+
+        <!-- Llamado a la acción -->
+        <section id="cta">
+            <h2>¿Listo para ser parte de algo más grande?</h2>
+            <p>Únete a nuestra comunidad y comienza tu transformación hoy.</p>
+            <a href="contact.html" class="btn">Contáctanos</a>
         </section>
     </main>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2024 MUUY FUERTES. Todos los derechos reservados.</p>
+        <p>© 2024 MUUY FUERTES | Sigamos rompiendo límites juntos.</p>
+        <ul class="social">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">TikTok</a></li>
+        </ul>
     </footer>
 </body>
 </html>
-
