@@ -104,3 +104,49 @@ footer .social li {
     display: inline;
     margin: 0 10px;
 }
+/* Blog Styles */
+#intro, #cuerpo, #conclusion {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#intro h2, #cuerpo h2, #conclusion h2 {
+    font-size: 2rem;
+    color: #e63946;
+}
+
+#cuerpo h3 {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+em {
+    font-style: italic;
+    color: #e63946;
+}
+
+.btn {
+    background-color: #e63946;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d62828;
+}
